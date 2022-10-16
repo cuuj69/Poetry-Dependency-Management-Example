@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "foo"
+version = "0.1.0"
+description = ""
+authors = ["cuuj69 <88050600+cuuj69@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyglet = "^1.5.27"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
